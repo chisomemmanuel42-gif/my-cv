@@ -373,9 +373,7 @@ footer {
 }
 
 @media(max-width:991px) {
-     .navbar-toggler{
-        width: 65px;
-    }
+    
     .header {
         padding: 1rem 2%;
     }
