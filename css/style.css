@@ -441,7 +441,7 @@ footer {
 }
 @media(max-width:550px) {
     .navbar-toggler{
-        width: 50px;
+        width: 30px;
     }
     #menu-icon {
         display: block;
