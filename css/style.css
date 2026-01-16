@@ -374,7 +374,7 @@ footer {
 
 @media(max-width:991px) {
      .navbar-toggler{
-        width: 70px;
+        width: 65px;
     }
     .header {
         padding: 1rem 2%;
@@ -443,7 +443,7 @@ footer {
 }
 @media(max-width:550px) {
     .navbar-toggler{
-        width: 70px;
+        width: 65px;
     }
     #menu-icon {
         display: block;
