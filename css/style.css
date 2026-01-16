@@ -27,10 +27,10 @@ body {
 }
 
 .navbar {
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
-    width: 50%;
+    width: 85%;
     background: var(--bg-color);
     z-index: 100;
     word-spacing: 10px;
@@ -373,9 +373,8 @@ footer {
 }
 
 @media(max-width:991px) {
-    
     .header {
-        padding: 1rem 2%;
+        padding: 1rem 1%;
     }
 
     section {
