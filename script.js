@@ -16,7 +16,7 @@
 
   ScrollReveal().reveal('.home-content, heading', { origin: 'top' });
   ScrollReveal().reveal('.home-img, .services-container, .portfolio-container, .contact form', { origin: 'buttom' });
-  ScrollReveal().reveal('.home-contact h1, .about-img', { origin: 'left' });
+  ScrollReveal().reveal('.home-contact h1, .about-img , .services-list', { origin: 'left' });
   ScrollReveal().reveal('.home-contact p, .about-content', { origin: 'right' });
 
   
