@@ -478,6 +478,31 @@ footer {
     }
 
 }
+/* Style only the navbar toggler */
+.navbar-toggler {
+  padding: 0.4rem 0.6rem;   /* reduce padding so it doesn’t overflow */
+  border: none;             /* optional: remove border */
+  outline: none;            /* prevent outline on click */
+  display: flex;            /* center the icon */
+  align-items: center;
+  justify-content: center;
+  max-width: 48px;          /* keep it compact */
+  max-height: 48px;
+}
+
+/* Style the icon inside */
+.navbar-toggler #menu-icon {
+  font-size: 1.4rem;        /* adjust icon size */
+  color: #333;              /* change color if needed */
+}
+
+/* Ensure responsiveness */
+@media (max-width: 991px) {
+  .navbar-toggler {
+    margin-left: auto;      /* push toggler to the right on mobile */
+  }
+}
+
  .project-links {
             display: flex;
             gap: 15px;
