@@ -30,7 +30,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 90%;
+    width: 50%;
     background: var(--bg-color);
     z-index: 100;
     word-spacing: 10px;
